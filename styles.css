@@ -1,0 +1,93 @@
+* { 
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+}
+  
+body {
+    background-color: #49596b;
+}
+  
+h1 {
+    width: 300px;
+    margin: 40px auto;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+  
+.phone-container {
+    background-color: black;
+    width: 275px;
+    margin: auto;
+    margin-bottom: 40px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(229, 229, 229);
+    border-radius: 50%;
+    margin: 15px;
+}
+  
+.screen-container {
+    background-color: rgb(229, 229, 229);
+    height: 80%;
+    width: 90%;
+    text-align: center;
+    padding: 25px;
+    border: none;
+}
+  
+#prompt {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+  
+#user-input {
+    width: 90%;
+    font-size: 18px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+  
+#results-div {
+    font-size: 21px;
+    margin: 20px 0px;
+    overflow: scroll;
+    height: 270px;
+}
+  
+.button-container {
+    margin: 12px;
+}
+  
+button {
+    padding: 7px 30px;
+    margin: 2px 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(229, 229, 229);
+}
+  
+button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #49596b;
+}
+  
+.green {
+    color: #027f71;
+}
+  
+.pink {
+    color: #f26479;
+}
